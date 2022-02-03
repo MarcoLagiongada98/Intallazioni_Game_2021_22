@@ -5,9 +5,18 @@ TagManager:
   serializedVersion: 2
   tags:
   - Green
-  - Cestino
-  - Connettore
   - Red
+  - GreenBin
+  - RedBin
+  - Cestino
+  - Torus'Path
+  - Torus'End
+  - Rolling Ball
+  - SpawnPoint
+  - GreenGun
+  - RedGun
+  - RedBullet
+  - GreenBullet
   layers:
   - Default
   - TransparentFX
