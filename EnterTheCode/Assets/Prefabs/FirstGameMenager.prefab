@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7438724660503810262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7438724660503810248}
+  - component: {fileID: 7438724660503810260}
+  - component: {fileID: 7438724660503810263}
+  m_Layer: 0
+  m_Name: Green ball menager
+  m_TagString: Green
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7438724660503810248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7438724660503810262}
+  m_LocalRotation: {x: -0, y: 0.5987284, z: -0, w: 0.8009522}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.26634818, y: 0.26634815, z: 0.26634818}
+  m_Children: []
+  m_Father: {fileID: 7438724661298957589}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 73.558, z: 0}
+--- !u!114 &7438724660503810260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7438724660503810262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"DecoBall","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"XrInteractable","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Hitbox","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"GetTransform","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 5177174163349339299, guid: b04787bff1c677749bae1ab03d48048c, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+--- !u!114 &7438724660503810263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7438724660503810262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 82bbc565ea4e68747bad91c29c773ecd, type: 2}
+--- !u!1 &7438724661298957588
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7438724661298957589}
+  m_Layer: 0
+  m_Name: FirstGameMenager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7438724661298957589
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7438724661298957588}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.198, y: 1.375, z: 4.355}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7438724661750206203}
+  - {fileID: 7438724660503810248}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7438724661750206145
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7438724661750206203}
+  - component: {fileID: 7438724661750206151}
+  - component: {fileID: 7438724661750206150}
+  m_Layer: 0
+  m_Name: Red ball menager
+  m_TagString: Red
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7438724661750206203
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7438724661750206145}
+  m_LocalRotation: {x: -0, y: 0.5987284, z: -0, w: 0.8009522}
+  m_LocalPosition: {x: 1.688, y: -0.22000003, z: -6.315}
+  m_LocalScale: {x: 0.26634818, y: 0.26634815, z: 0.26634818}
+  m_Children: []
+  m_Father: {fileID: 7438724661298957589}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 73.558, z: 0}
+--- !u!114 &7438724661750206151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7438724661750206145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"XrInteractable","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"HitBox","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"GetTransform","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"DecoBall","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 2309412506890671782, guid: 90e542a1c1ba3d4499e348bb932da9bc, type: 3}
+--- !u!114 &7438724661750206150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7438724661750206145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: b322c1f3a98598a4ab099b75b2fe4b25, type: 2}
